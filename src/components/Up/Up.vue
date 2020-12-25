@@ -9,7 +9,7 @@
 			<div class="form-group">
 			    <label for="exampleFormControlSelect1">视频类型</label>
 			    <select class="form-control" id="exampleFormControlSelect1" v-model="type">
-			      <option>鬼畜</option>
+			      <option>鬼畜2</option>
 			      <option>科幻</option>
 			      <option>搞笑</option>
 			      <option>日常</option>
