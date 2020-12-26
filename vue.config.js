@@ -1,5 +1,8 @@
 module.exports = {
-    devServer: {
-        port: 8888,     // 端口
-    }
+    "devServer": {
+        "port": process.env.VUE_APP_PORT,
+    },
+    "transpileDependencies": [
+        "vuetify"
+    ]
 };
