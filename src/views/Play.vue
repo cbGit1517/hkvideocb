@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<Header></Header>
 		<div class="video">
 			<Video></Video>
 		</div>
@@ -14,13 +13,11 @@
 </template>
 
 <script>
-	import Header from '../components/Header.vue'
-	import Video from '../components/Play/Video.vue'
+  import Video from '../components/Play/Video.vue'
 	import Comment from '../components/Play/Comment.vue'
 	import Author from '../components/Play/Author.vue'
 	export default{
 		components:{
-			Header,
 			Video,
 			Comment,
 			Author

@@ -1,7 +1,7 @@
 <!-- 个人中心 -->
 <template>
 	<div>
-		<Header></Header>
+<!--		<Header></Header>-->
 		<div class="left">
 			<Left></Left>
 		</div>
@@ -14,12 +14,12 @@
 </template>
 
 <script>
-	import Header from '../components/Header.vue'
+	// import Header from '../components/Header.vue'
 	import Left from '../components/Person/Left.vue'
 	import Right from '../components/Person/Right.vue'
 	export default{
 		components:{
-			Header,
+			// Header,
 			Left,
 			Right
 		},
